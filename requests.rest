@@ -1,1 +1,18 @@
 GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYmlzd2FuYXRoIiwiaWF0IjoxNzEyNzM0ODI4fQ.jAd0r0WHtpwBKVWBRpSGd0MOWqPNFBoMfOFFR_dy6EY
+
+
+
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username" : "biswanath"
+}
+
+
+###
+GET http://localhost:3000/?param=sex
